@@ -11,9 +11,9 @@ Supported develop environment with this better:
 
 ## Getting Started
 
-### • npm install ivor-replace;
-### • import transformer from 'ivor-replace';
-### • transformer(sourcePath, transArr, newName, newPath)；
+#### • npm install ivor-replace
+#### • import transformer from 'ivor-replace'
+#### • transformer(sourcePath, transArr, newName, newPath)
 
 * [sourcePath]
 
@@ -46,7 +46,7 @@ Supported develop environment with this better:
 
 	The path of the new files that you are gonna create.
 	
-### • Define values in template files
+#### • Define values in template files
 * Define values in positions which should to replaced by '<##' and '##>' just like this:
 
 	import React, { Component } from 'react';<br>
