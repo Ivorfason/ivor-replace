@@ -1,0 +1,88 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "ivor-replace",
+        "scope": null,
+        "escapedName": "ivor-replace",
+        "name": "ivor-replace",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/dawn/ivor-replace"
+    ]
+  ],
+  "_from": "ivor-replace@latest",
+  "_id": "ivor-replace@1.0.0",
+  "_inCache": true,
+  "_location": "/ivor-replace",
+  "_nodeVersion": "6.9.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/ivor-replace-1.0.0.tgz_1503311294057_0.2873725111130625"
+  },
+  "_npmUser": {
+    "name": "ivorfason",
+    "email": "845407259@qq.com"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "ivor-replace",
+    "scope": null,
+    "escapedName": "ivor-replace",
+    "name": "ivor-replace",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "http://registry.npmjs.org/ivor-replace/-/ivor-replace-1.0.0.tgz",
+  "_shasum": "6b27b65fe4d50a0f86d94118d4b64202af9b96d8",
+  "_shrinkwrap": null,
+  "_spec": "ivor-replace",
+  "_where": "/Users/dawn/ivor-replace",
+  "author": {
+    "name": "ivor"
+  },
+  "bugs": {
+    "url": "https://github.com/Ivorfason/ivor-replace/issues"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "description": "Transform text-files with custom values",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "6b27b65fe4d50a0f86d94118d4b64202af9b96d8",
+    "tarball": "https://registry.npmjs.org/ivor-replace/-/ivor-replace-1.0.0.tgz"
+  },
+  "homepage": "https://github.com/Ivorfason/ivor-replace#readme",
+  "keywords": [
+    "replace"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "ivorfason",
+      "email": "845407259@qq.com"
+    }
+  ],
+  "name": "ivor-replace",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivorfason/ivor-replace.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
