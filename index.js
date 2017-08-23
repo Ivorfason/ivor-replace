@@ -5,7 +5,7 @@ var transformGenerate = require('./transformGenerate');
 
 var transformer = function (sourcePath, transArr, newName, newPath) {
     var source = fs.readFileSync(sourcePath).toString();
-    var result = transformString(source, transArr);
+    var result = transformString(source, transArr, true);
     transformGenerate(path.resolve(newPath, newName), result);
 }
 
