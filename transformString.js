@@ -1,6 +1,9 @@
 var result = '';
 
-var transformString = function (source, transArr) {
+var transformString = function (source, transArr, isResult) {
+    if (isResult) {
+        result = '';
+    }
     var searchIndex = Number.POSITIVE_INFINITY;
     var searchLength = 0;
     var searchItem = '';
@@ -16,7 +19,7 @@ var transformString = function (source, transArr) {
         return result;
     } else {
         result = result + source.substring(0, searchIndex) + searchItem;
-        transformString(source.substring(searchIndex + searchLength), transArr);
+        transformString(source.substring(searchIndex + searchLength), transArr, false);
         return result;
     }
 }
